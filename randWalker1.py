@@ -19,6 +19,7 @@ def drawObject(x,y,r):
     # win.getMouse()
     # win.close()
     return(xx,yy)
+#  function not needed
 
 r = random.randrange(256)
 b = random.randrange(256)
