@@ -9,7 +9,12 @@ class walker:
     def __init__(self,x,y):
         self.x = x
         self.y = y
-        # self.win = win
+        # self.win = 
+        
+        self.instantiate_move()
+
+    def instantiate_move():
+
         
     def create(self):
         r = random.randrange(256)
@@ -31,10 +36,11 @@ class walker:
         line.setOutline(self.color)
         line.draw(win)
 
-n = 4
+n = 10
 w=[0] * n
+w=[]
 for i in range(n):
-    w[i] = walker(300,300)
+    w.push(walker(300,300))
     w[i].create()
 for t in range(100):
     for i in range(n):
